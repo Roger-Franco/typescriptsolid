@@ -1,26 +1,24 @@
-npm init -y
+git init // iniciar o repositório
+git remote add origin git@github.com:Roger-Franco/typescriptsolid.git
 
-npm i typescript -D
+Coloquei isso para corrigir o eslint:
+"editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
 
-npm i ts-node -D
 
-npm i eslint -D
 
-npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
+The SOLID ideas are
 
-npm i prettier eslint-config-prettier eslint-plugin-prettier -D
+S => single-responsibility principle: "There should never be more than one reason for a class to change." In other words, every class should have only one responsibility.
+O => open–closed principle: "Software entities ... should be open for extension, but closed for modification."
+L => The Liskov substitution principle: "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it." See also design by contract.
+The interface segregation principle: "Clients should not be forced to depend upon interfaces that they do not use."
+I => The dependency inversion principle: "Depend upon abstractions,  concretions."
+D => The SOLID acronym was introduced later, around 2004, by Michael Feathers.
 
-npx tsc --init (cria o tsconfig.json)
 
-npm i ts-loader webpack webpack-cli --save-dev
+mesa/aulas-typescript/24/04
 
-npx webpack -w
-npx tsc
-npm run <scripts>
-
-"npm run build:frontend " e depois abrir o server (clicar no Go Live, link na aba inferior do vscode)
-
-mesa/aulas-typescript/24/02
-
-repositorio: https://github.com/luizomf/cursojstypescript
+repositorio: https://github.com/luizomf/typescriptsolid
 
