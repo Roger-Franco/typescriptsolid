@@ -18,7 +18,7 @@ I => The dependency inversion principle: "Depend upon abstractions,  concretions
 D => The SOLID acronym was introduced later, around 2004, by Michael Feathers.
 
 
-mesa/aulas-typescript/24/07
+mesa/aulas-typescript/24/08
 
 repositorio: https://github.com/luizomf/typescriptsolid
 
